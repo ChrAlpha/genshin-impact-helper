@@ -1,7 +1,6 @@
+简体中文 | [English](./README.en-US.md)
 <div align="center"> 
-<h1 align="center">
-Genshin Impact Helper
-</h1>
+<h1 align="center">Genshin Impact Helper</h1>
 
 ![Genshin Impact Helper](https://i.loli.net/2020/11/18/3zogEraBFtOm5nI.jpg)
 [![GitHub stars](https://img.shields.io/github/stars/y1ndan/genshin-impact-helper?style=flat-square)](https://github.com/y1ndan/genshin-impact-helper/stargazers)
@@ -12,6 +11,8 @@ Genshin Impact Helper
 ![Github workflow status](https://img.shields.io/github/workflow/status/y1ndan/genshin-impact-helper/Genshin%20Impact%20Helper?label=status&style=flat-square)
 
 </div>
+
+## 已支持国际版签到 HoYoLAB Community daily check-in is supported 
 
 ## 💭前言
 
@@ -44,7 +45,7 @@ Genshin Impact Helper 可以自动化为你获取原神每日福利。
 1. Fork 仓库
 2. 获取 Cookie
 3. 添加 Cookie 至 Secrets
-4. 启用 Actions
+4. 启用 Action
 
 <details>
 <summary>查看教程</summary>
@@ -258,6 +259,7 @@ if (ask == true) {
 |   参数名称         |   是否必填   |   默认值           |   说明                                                          |
 |---                |---          |---                 |---                                                              |
 |   COOKIE          | ✅         |                    |   米游社的Cookie                                                 |
+|   OS_COOKIE          | ❌         |                    |   米游社国际版的Cookie                                                 |
 |   WB_COOKIE       | ❌         |                    |   新浪微博的Cookie                                                 |
 |   KA_COOKIE       | ❌         |                    |   新浪新手卡中心的Cookie                                                 |
 |   SCKEY           | ❌         |                    |   Server酱的SCKEY                                                |
@@ -265,6 +267,7 @@ if (ask == true) {
 |   COOL_PUSH_MODE  | ❌         | send               |   Cool Push的推送方式.可选私聊(send)、群组(group)或者微信(wx).      |
 |   BARK_KEY        | ❌         |                    |   Bark的IP或设备码                                                |
 |   BARK_SOUND      | ❌         | healthnotification |   Bark的推送铃声.在APP内查看铃声列表                                |
+|   TG_BOT_API      | ❌         | api.telegram.org   |   Telegram 的API地址 (可以自定义为反向代理服务器)                       |
 |   TG_BOT_TOKEN    | ❌         |                    |   Telegram Bot的token.向bot father申请bot时生成                    |
 |   TG_USER_ID      | ❌         |                    |   Telegram推送对象的用户ID                                         |
 |   DD_BOT_TOKEN    | ❌         |                    |   钉钉机器人WebHook地址中access_token后的字段                       |
